@@ -1,0 +1,114 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    color: tomato;
+    font-size: 6rem;
+    padding-top: 2rem;
+
+}
+
+body{
+    min-height: 500rem;
+
+}
+li a {
+    text-decoration: none;
+    margin-left: 10rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    width: 80%;
+    
+    
+
+
+}
+.main-head {
+ display: flex; 
+ background-color: blue; 
+ min-height: 20vh;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-basis: 50rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+h2{
+    font-size: 5rem;
+    color: teal;
+    text-align: center;
+    padding-top: 5rem;
+
+
+}
+
+
+h3{
+    font-size: 2.5rem;
+    color: tomato;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+h4{
+    text-align: center;
+    padding-top: 4rem;
+    text-decoration: underline;
+    font-size: 2rem;
+    color: teal;
+
+}
+
+
+
+.project {
+    margin-top: 5rem;
+    
+    min-height: 40vh;
+    max-width: 50vh;
+    background: tomato;
+    text-align: center;
+
+
+
+
+}
+
+
+h5{
+    font-size: 1.5rem;
+    color: white;
+
+
+}
+img {
+    max-height: 30vh;
+    min-width: 50vh;
+    
+    
+}
+#projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+
+}
